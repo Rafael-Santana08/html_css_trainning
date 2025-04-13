@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-color: #fff;
+}
+
+.logo-header {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 70px;
+}
+
+header nav a {
+    font-weight: 700;
+    color: #636363;
+    margin: 0 50px;
+}
+
+.active {
+    text-decoration: 2px underline #43a2f6;
+}
+
+main {
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-left: 70px;
+}
+
+.content-info {
+    height: 450px;
+}
+
+.content p {
+    margin: 70px 0 30px;
+    font-weight: 700;
+    color: #43a2f6;
+    font-size: 18px;
+}
+
+.title-main {
+    width: 500px;
+    margin: 0 0 50px 0;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.button {
+    display: flex;
+    margin: 70px 0 0 0;
+
+    & .sign-up {
+        background-color: #43a2f6;
+        color: white;
+        margin: 0 10px 0 0;
+        width: 150px;
+        height: 50px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    & .Show-more {
+        background-color: white;
+        color: #43a2f6;
+        margin: 0 0 0 10px;
+        width: 150px;
+        height: 50px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+.img-hero {
+    margin-left: 750px;
+    margin-top: -650px;
+    width: 600px;
+    height: 480px;
+}
+
+footer {
+    background-color: #43a2f6;
+    border: 1px solid black;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 50px 50px 50px 70px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.step-active {
+    display: flex;
+    flex-direction: column;
+    margin: 0 130px 0 0;
+    width: 250px;
+    height: 100px;
+
+    & h2 {
+        padding: 10px 0 5px;
+        font-size: 20px;
+    }
+
+    & p {
+        font-size: 14px;
+        font-weight: lighter;
+        color: #ededed;
+    }
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0 130px 0 0;
+    width: 250px;
+
+    & h2 {
+        padding: 10px 0 5px;
+        font-size: 20px;
+    }
+
+    & p {
+        font-size: 14px;
+        font-weight: lighter;
+        color: #ededed;
+    }
+}
+
+.arrows {
+    margin-left: 70px;
+    & button:nth-child(1) {
+        transform: scale(-1);
+    }
+
+    & button {
+        margin: 0 20px 0 0;
+        background-color: transparent;
+        border: none;
+    }
+
+    & button:hover {
+        background-color: black;
+    }
+}
