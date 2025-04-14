@@ -23,7 +23,7 @@ function generatorPassword() {
         console.log(pass);
     }
 
-    containerPassword.classList.remove(' hide');
+    containerPassword.classList.remove('hide');
     password.innerHTML = pass;
     novaSenha = pass;
 }
